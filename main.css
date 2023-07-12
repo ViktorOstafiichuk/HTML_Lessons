@@ -28,7 +28,6 @@ div:first-child {
 }
 p {
     animation-name: show;
-    animation-delay: 0.5s;
     animation-duration: 2s;
     padding: 0 15px;
 
