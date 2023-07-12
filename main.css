@@ -1,0 +1,57 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div:first-child {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(37, 157, 157, 0.45);
+    border: black 2px solid;
+    border-radius: 7px ;
+}
+p {
+    animation-name: show;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+    padding: 0 15px;
+
+}
+
+p:first-child {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p:last-child {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+@keyframes show {
+
+    0% {color: rgba(37, 157, 157, 0.45); }
+
+    100% {color: black; }
+
+}
+
